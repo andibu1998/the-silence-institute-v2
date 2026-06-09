@@ -1,7 +1,6 @@
 import React from 'react';
 import { Navigation } from './components/Navigation';
 import { Hero } from './components/Hero';
-import { TrustBar } from './components/TrustBar';
 import { ProblemSection } from './components/ProblemSection';
 import { PhilosophySection } from './components/PhilosophySection';
 import { VisionSection } from './components/VisionSection';
@@ -21,9 +20,6 @@ const App: React.FC = () => {
         <main className="flex-grow flex flex-col w-full">
           {/* Hero Section */}
           <Hero />
-
-          {/* Scientific Foundation Bar (Below the Fold) */}
-          <TrustBar />
 
           {/* Main Content Sections */}
           <ProblemSection />
