@@ -31,9 +31,12 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Legal Links */}
-        <div className="flex flex-col gap-4 h-full md:justify-center md:items-end">
+        <div className="flex flex-col gap-4 h-full lg:justify-center lg:items-end">
           <div className="font-sans text-bone">Legal</div>
-          <div className="font-sans text-muted flex flex-col gap-2 md:items-end">
+          <div className="font-sans text-muted flex flex-col gap-2 lg:items-end">
+            <div className="text-[10px] text-muted/60 leading-relaxed max-w-sm lg:text-right mb-2">
+              Disclaimer: The information provided by The Silence Institute is for educational and coaching purposes only. It is not intended as a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
+            </div>
             <a 
               href="https://go.thesilenceinstitute.com/privacy-policy" 
               target="_blank" 

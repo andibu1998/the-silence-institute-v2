@@ -40,7 +40,7 @@ export const ProblemSection: React.FC = () => {
         
         {/* Header */}
         <FadeIn className="text-center mb-20">
-            <h2 className="font-serif text-4xl md:text-5xl text-bone mb-6">Why Most Treatments Fail</h2>
+            <h2 className="font-serif text-4xl md:text-5xl text-bone mb-6">Why Traditional Approaches Miss the Mark</h2>
         </FadeIn>
 
         {/* The Failures Grid */}
@@ -48,15 +48,15 @@ export const ProblemSection: React.FC = () => {
           <FadeIn delay={0} className="h-full">
             <ProblemCard 
               icon={<EarIcon />}
-              title="Doctors treat the ears."
-              text="But tinnitus isn't an ear problem."
+              title="Many focus only on the ears."
+              text="But persistent internal sounds are rarely just an ear issue."
             />
           </FadeIn>
           <FadeIn delay={150} className="h-full">
             <ProblemCard 
               icon={<WaveIcon />}
-              title="Apps mask the sound."
-              text="But masking prevents healing."
+              title="Audio apps just mask the sound."
+              text="But masking only hides the symptom; it prevents true recalibration."
             />
           </FadeIn>
           <FadeIn delay={300} className="h-full">
@@ -76,18 +76,18 @@ export const ProblemSection: React.FC = () => {
                 
                 <div className="relative z-10 p-10 md:p-14 text-center">
                     <h3 className="font-serif text-2xl md:text-3xl text-bone mb-6">
-                        The Truth? Tinnitus is a <span className="text-teal font-medium">brain problem</span>.
+                        The Truth? It's a <span className="text-teal font-medium">sensory processing loop</span>.
                     </h3>
                     <p className="font-sans text-[#94A3B8] text-lg mb-8">
-                        Specifically, three malfunctioning systems:
+                        Specifically, a miscommunication between three interconnected networks:
                     </p>
                     
                     <div className="flex flex-col md:flex-row justify-center items-center gap-3 md:gap-6 font-sans text-gold text-lg tracking-wide">
-                        <span className="font-medium">The Auditory System</span>
+                        <span className="font-medium">Your Auditory Pathways</span>
                         <span className="hidden md:inline text-white/20">•</span>
-                        <span className="font-medium">The Somatosensory System</span>
+                        <span className="font-medium">Your Physical Tension Centers</span>
                         <span className="hidden md:inline text-white/20">•</span>
-                        <span className="font-medium">The Limbic System</span>
+                        <span className="font-medium">Your Stress Response System</span>
                     </div>
                 </div>
                 

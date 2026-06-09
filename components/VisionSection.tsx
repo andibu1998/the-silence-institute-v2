@@ -55,7 +55,7 @@ export const VisionSection: React.FC = () => {
             The Neuro-Somatic<br/>Reset Protocol
           </h2>
           <p className="font-sans text-lg text-muted mb-16 max-w-xl mx-auto">
-              A comprehensive 12-week clinical program designed to <span className="text-teal/90">recalibrate the auditory-limbic loop</span>.
+              A comprehensive 12-week coaching program designed to <span className="text-teal/90">recalibrate your sensory-stress loop</span>.
           </p>
         </FadeIn>
 
@@ -66,7 +66,7 @@ export const VisionSection: React.FC = () => {
             
             <div className="flex justify-between items-start w-full">
                 <TimelineDot label="Foundation Phase" />
-                <TimelineDot label="Clinical Board Assembly" active />
+                <TimelineDot label="Advisory Board Assembly" active />
                 <TimelineDot label="Global Launch Q3 2026" />
             </div>
         </FadeIn>
@@ -74,7 +74,7 @@ export const VisionSection: React.FC = () => {
         {/* Specialists (Tech Specs - Organic Style) */}
         <FadeIn delay={300}>
             <div className="flex flex-wrap justify-center gap-4 mb-20 max-w-3xl mx-auto">
-                {['Functional Neurology', 'Osteopathy', 'Somatic Therapy', 'Audiology'].map((tech) => (
+                {['Movement & Mobility', 'Tension Release', 'Somatic Practices', 'Auditory Wellness'].map((tech) => (
                     <span key={tech} className="px-6 py-3 rounded-full bg-gold/5 border border-gold text-sm font-sans text-bone font-medium tracking-wide backdrop-blur-sm hover:bg-gold/10 transition-colors duration-300 shadow-[0_0_10px_rgba(212,180,131,0.1)]">
                         {tech}
                     </span>

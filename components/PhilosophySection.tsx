@@ -42,7 +42,7 @@ export const PhilosophySection: React.FC = () => {
             Our Approach: <br/> <span className="text-teal opacity-90">The Neuro-Somatic Reset</span>
           </h2>
           <p className="font-sans text-xl text-muted max-w-2xl mx-auto leading-relaxed">
-            We don't believe in "coping." We believe in recalibration.
+            We don't believe in just "coping." We believe in complete recalibration.
           </p>
         </FadeIn>
 
@@ -52,8 +52,8 @@ export const PhilosophySection: React.FC = () => {
           <BentoCard 
             className="lg:col-span-7"
             number="01"
-            title="Truth #1: Tinnitus Is a Software Problem" 
-            text="Your brain's noise-canceling filter is stuck. We teach it to turn back on." 
+            title="Truth #1: It's a Software Problem" 
+            text="Your brain's noise-canceling filter is stuck. We guide you through the exercises to turn it back on." 
             delay={0}
           />
 
@@ -61,7 +61,7 @@ export const PhilosophySection: React.FC = () => {
             className="lg:col-span-5"
             number="02"
             title="Truth #2: Physical Tension Modulates Volume" 
-            text="Jaw clenching and neck strain send signals directly into your auditory center. We release the triggers." 
+            text="Jaw clenching and neck strain send signals directly into your sensory centers. We help you release the physical triggers." 
             delay={100}
           />
 
@@ -69,7 +69,7 @@ export const PhilosophySection: React.FC = () => {
             className="lg:col-span-5"
             number="03"
             title="Truth #3: The Brain Can't Ignore a Threat" 
-            text="As long as the sound is labeled 'dangerous,' the filter stays off. We remove the label." 
+            text="As long as the internal sensation is labeled 'dangerous' by your nervous system, the filter stays off. We help you remove the label." 
             delay={200}
           />
 
@@ -77,15 +77,15 @@ export const PhilosophySection: React.FC = () => {
             className="lg:col-span-7"
             number="04"
             title="Truth #4: Stress Amplifies the Signal" 
-            text="Fight-or-flight mode makes neurons fire faster. We activate your body's natural calm switch." 
+            text="Fight-or-flight mode makes your nervous system hyper-sensitive. We show you how to activate your body's natural calm switch." 
             delay={300}
           />
 
           <BentoCard 
             className="lg:col-span-12"
             number="05"
-            title="Truth #5: Precision Medicine" 
-            text="One Size Fits All Doesn't Work. Somatic tinnitus ≠ Stress-induced tinnitus. We customize the protocol to your subtype." 
+            title="Truth #5: Personalized Frameworks" 
+            text="One Size Fits All Doesn't Work. Tension-based sensitivity is different from stress-induced sensitivity. We customize the framework to your specific profile." 
             delay={400}
           />
         </div>

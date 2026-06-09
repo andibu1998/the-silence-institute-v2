@@ -94,7 +94,7 @@ export const Hero: React.FC = () => {
             {/* Left Column: Headline */}
             <FadeIn delay={200} className="text-left w-full">
                 <span className="font-sans text-teal/80 text-xs tracking-[0.2em] uppercase font-bold mb-6 block">
-                    THE NEURO-SOMATIC TINNITUS SOLUTION
+                    THE NEURO-SOMATIC RESET
                 </span>
                 <h1 className="font-serif leading-[1.1] tracking-tight"
                     style={{ fontSize: 'clamp(2.5rem, 5vw, 6rem)' }}>
@@ -109,13 +109,13 @@ export const Hero: React.FC = () => {
             <FadeIn delay={400} className="flex flex-col items-start space-y-10 lg:pt-12">
                  <div className="font-sans text-lg md:text-xl text-[#94A3B8] leading-relaxed font-light text-left space-y-6">
                     <p>
-                        For decades, millions have been told: "There's no cure. You'll have to learn to live with it."
+                        For decades, millions struggling with persistent internal noise have been told: "There's nothing you can do. You'll just have to learn to live with it."
                     </p>
                     <p>
-                        But what if the ringing isn't coming from broken ears? What if relief isn't about masking the sound... But rebooting the system that's generating it?
+                        But what if this constant sound isn't coming from broken ears? What if lasting relief isn't about trying to mask the noise... But rebooting the system that's generating it?
                     </p>
                     <p className="text-bone font-medium">
-                        The Silence Institute is building the future of tinnitus relief.
+                        The Silence Institute is building the future of auditory wellness and inner calm.
                     </p>
                 </div>
 
